@@ -1,5 +1,6 @@
 from tolmesurements import Instrument
 from tolmesurements.src.instrument import InstrumentConfig
+import numpy as np
 
 class K2636A(Instrument):
     def __init__(self, instrConfig):
